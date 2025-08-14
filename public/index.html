@@ -4,46 +4,66 @@
   <title>CRUD App</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-    }
-    table {
-      border-collapse: collapse;
-      width: 60%;
-      margin-top: 20px;
-    }
-    table, th, td {
-      border: 1px solid black;
-      padding: 10px;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-    input {
-      padding: 5px;
-      margin: 5px;
-    }
-    .add-btn {
-      background-color: purple;
-      color: white;
-      border: none;
-      padding: 8px 12px;
-      cursor: pointer;
-    }
-    .edit-btn {
-      background-color: green;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-    .delete-btn {
-      background-color: red;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-  </style>
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table,th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: white;
+}
+th{
+  background-color: yellow;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+}
+
+.add-btn {
+  background-color: purple;
+}
+.add-btn:hover {
+  background-color: #800080cc;
+}
+
+.edit-btn {
+  background-color: green;
+}
+.edit-btn:hover {
+  background-color: #008000cc;
+}
+
+.delete-btn {
+  background-color: red;
+}
+.delete-btn:hover {
+  background-color: #ff0000cc;
+}
+</style>
 </head>
 <body>
   <center>
